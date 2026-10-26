@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collosal {
+  background-color: #0b0b22;
+  min-height: 100vh;
+  width: 90%;
+  margin: auto;
+  padding: 20px 80px;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #ffffff1a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* HERO SECTION STYLES */
+section {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+section p:first-child {
+  color: #16fcd2;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+section h4 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: white;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section p {
+  color: #ffffff99;
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+section button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: rgb(250, 246, 246);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+section button:first-child {
+  background-color: #6016fc;
+}
+
+section button:last-child {
+  background: #cfc5c51a;
+  color: white;
+}
+
+/* CARDS STYLES */
+.carder {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: #1a1e29;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 320px;
+  height: 280px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a0a5b5;
+}
+
+/* BOTTOM LOGOS / SECONDARY HEADER */
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+  color: #ffffff99;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
